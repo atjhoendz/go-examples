@@ -1,0 +1,18 @@
+@base_url = http://localhost:8080
+
+### /ping
+GET {{base_url}}/ping
+Accept: application/json
+
+### /user/:name
+GET {{base_url}}/user/atjhoendz
+Accept: application/json
+
+### /webhook
+POST {{base_url}}/webhook
+Content-Type: application/json
+
+{
+  "name": "atjhoendz",
+  "grade": "A"
+}
