@@ -1,1 +1,2 @@
-# Random Code using Golang
+# Go Examples
+

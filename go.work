@@ -1,6 +1,7 @@
-go 1.18
+go 1.20
 
 use (
-	./sample-io
-	./simple-web
+	./fundamental/scan
+	./web
+	./webhook
 )
